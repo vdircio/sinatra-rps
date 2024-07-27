@@ -1,0 +1,9 @@
+<h1>You picked rock!</h1>
+<h1>They picked <%=@move%>!</h1>
+<% if @move == "rock" %>
+  <h1>We tied!</h1>
+<% elsif @move == "paper" %>
+  <h1>We lost!</h1>
+<% else %>
+  <h1>We won!</h1>
+<% end %>
